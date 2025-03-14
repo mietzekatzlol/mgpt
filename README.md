@@ -1,18 +1,29 @@
-mgpt - A Command-Line AI Assistant
+**mgpt - A Command-Line AI Assistant**
+
 mgpt is a powerful command-line tool that integrates OpenAI's GPT models and OpenManus for natural language processing and script automation. Whether you want to chat with an AI, generate Python scripts, or execute tasks, mgpt has you covered!
 
 **Features**
+
 •	Interactive chat mode with GPT-4o.
+
 •	Delegate tasks to OpenManus for script generation and execution.
+
 •	Supports piping input and verbose debugging.
+
 •	Customizable via environment variables.
 
 **Prerequisites**
+
 Before installing mgpt, ensure you have the following:
+
 •	Python 3.6+: Installed on your system.
+
 •	pip: Python package manager.
+
 •	Git: For cloning the repository (optional).
+
 •	OpenAI API Key: Required for GPT functionality.
+
 •	OpenManus: Optional, for script automation features.
 
 **Installation**
@@ -27,6 +38,7 @@ Replace yourusername with your GitHub username or use the actual repository URL.
 **2. Install Dependencies**
 
 Install the required Python packages:
+
 pip install openai
 The openai package is the only direct dependency for basic functionality. If you use OpenManus, additional dependencies may be required (see OpenManus section below).
 
@@ -40,27 +52,39 @@ The openai package is the only direct dependency for basic functionality. If you
 Set execute permissions:
 chmod +x mgpt.py
 
+
 **Configuration**
 
 **1. Set Up OpenAI API Key**
 
 mgpt requires an OpenAI API key for GPT functionality. Set it as an environment variable:
+
 export OPENAI_API_KEY="your_openai_api_key_here"
+
 •	Replace your_openai_api_key_here with your actual key from OpenAI.
+
 •	To make this permanent, add the line to your ~/.bashrc, ~/.zshrc, or equivalent shell configuration file.
 
 **2. Define an Alias in .bashrc**
 
 To run mgpt conveniently without typing ./mgpt.py every time, define an alias in your ~/.bashrc:
+
 Open the file: 
+
 •  nano ~/.bashrc
+
 •  Add this line at the end (adjust the path to where mgpt.py is located): 
-bash
+
 •  alias mgpt='python3 /home/yourusername/mgpt/mgpt.py'
+
 Replace /home/yourusername/mgpt/mgpt.py with the actual path to your mgpt.py. 
+
 •  Save and exit (Ctrl+O, Enter, Ctrl+X in nano). 
+
 •  Apply the changes: source ~/.bashrc
+
 Now you can simply type mgpt to run the script from anywhere!
+
 
 **3. (Optional) Configure OpenManus**
 
