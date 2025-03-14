@@ -40,11 +40,13 @@ Replace yourusername with your GitHub username or use the actual repository URL.
 Install the required Python packages:
 
 pip install openai
+
 The openai package is the only direct dependency for basic functionality. If you use OpenManus, additional dependencies may be required (see OpenManus section below).
 
 **3. Download or Create mgpt.py**
 
 •	If cloned from GitHub, the script is already in the repository.
+
 •	Otherwise, copy the mgpt.py script into your working directory (e.g., ~/mgpt/).
 
 **4. Make the Script Executable**
