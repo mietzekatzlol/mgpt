@@ -129,11 +129,17 @@ Type prompts interactively; exit with exit or Ctrl+C.
 
 **Generate and execute a script:**
 mgpt -o "write a simple python script that checks disk usage and prints the results, save it as check_disk_usage.py, and execute it"
+
 Output:
+
 Content successfully saved to check_disk_usage.py
+
 Total: 343.19 GB
+
 Used: 48.04 GB
+
 Free: 277.65 GB
+
 
 Add -v for detailed debugging:
 mgpt -o -v "write a simple python script that says hello, save it, and execute it"
