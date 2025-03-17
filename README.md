@@ -1,5 +1,13 @@
 # mgpt - A Command-Line AI Assistant
-## mgpt is a powerful command-line tool that integrates OpenAI's GPT models and OpenManus for natural language processing and script automation. Whether you want to chat with an AI, generate Python scripts, or execute tasks, mgpt has you covered!
+## mgpt – a command-line AI sidekick that blends OpenAI smarts with OpenManus magic. 
+
+Crafted by Marco, with a tiny assist from the Grok-ulator :-)
+
+Think piping data into it for quick AI insights, generating Python scripts on demand, and automating tasks like a pro – all from your terminal. 
+
+Took some late-night debugging, but it’s alive and kicking! 
+
+Hack it, tweak it, clone it, nuke it – it’s all yours to play with! ^^
 
 ## Features
 
